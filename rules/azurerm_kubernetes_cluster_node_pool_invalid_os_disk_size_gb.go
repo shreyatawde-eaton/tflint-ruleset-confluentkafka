@@ -6,7 +6,7 @@ import (
 
 	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
 	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-azurerm/project"
+	
 )
 
 // AzurermKubernetesClusterNodePoolInvalidOSDiskSizeGbRule checks the pattern is valid
