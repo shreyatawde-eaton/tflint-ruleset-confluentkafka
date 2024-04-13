@@ -3,7 +3,7 @@
 package rules
 
 import (
-    "fmt"
+    
 	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
 	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
 	
@@ -44,10 +44,7 @@ func (r *AzurermKubernetesClusterNodePoolInvalidOSDiskSizeGbRule) Severity() tfl
 	return tflint.ERROR
 }
 
-// Link returns the rule reference link
-func (r *AzurermKubernetesClusterNodePoolInvalidOSDiskSizeGbRule) Link() string {
-	return project.ReferenceLink(r.Name())
-}
+
 
 // Check checks the pattern is valid
 func (r *AzurermKubernetesClusterNodePoolInvalidOSDiskSizeGbRule) Check(runner tflint.Runner) error {
